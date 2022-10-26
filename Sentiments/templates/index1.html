@@ -1,0 +1,49 @@
+{% extends 'base1.html' %}
+
+
+{% block js %}Home{% endblock %}
+
+{% block content %}
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Twitter</b> Sentiment Analysis</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+        <!-- <a href="{% url 'viewresult' %}" class="nav-item nav-link active">Home</a> -->
+        <a href="{% url 'reg' %}" class="nav-item nav-link">Register</a>
+        <a href="{% url 'login' %}" class="nav-item nav-link">Login</a></li>
+                    
+      
+    
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="https://cdn.cms-twdigitalassets.com/content/dam/help-twitter/homepage/en/home-masthead-desktop.jpg.twimg.1920.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+
+  </div>
+  <p>Twitter sentiment analysis allows you to keep track of what's being said about your product or service on social media, 
+    and can help you detect angry customers or negative mentions before they they escalate.
+    It has become increasingly important for customer service agents to be present on Twitter. They need to engage with customers and respond quickly to customer queries: 
+    six out of ten users expect a brand to respond to any customer service requests within one hour.
+    Twitter is a major source of consumer insight. In fact, people use it to express all sorts of feelings, observations, beliefs, and opinions about a variety of topics. 
+
+    You can use Twitter sentiment analysis to track specific keywords and topics to detect customer trends and interests. Understanding what customers like, what their behaviors are,
+     and how this changes over time is essential if you are planning to launch a new product.</p>
+
+</header>
+<img class="w3-image" src="https://business.twitter.com/content/dam/business-twitter/help/header/adhc-header-desktop.png.twimg.1920.png" alt="Architecture" width="1500" height="300">
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+
+</body>
+{% endblock %}
